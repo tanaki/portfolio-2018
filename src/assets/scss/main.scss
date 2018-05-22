@@ -1,0 +1,105 @@
+
+body {
+  background: #FFFFFF;
+  font-family: "geomanistregular", sans-serif;
+}
+
+.wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+header {
+  overflow: hidden;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+header h1 {
+  float: left;
+  padding: 0;
+}
+header .menu {
+  float: right;
+}
+header .menu li {
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.projects {
+  margin: 30px auto;
+  overflow: hidden;
+
+  .project {
+    position: relative;
+    display: block;
+    width: 270px;
+    height: 270px;
+    float: left;
+    margin: 0 20px 20px 0;
+    background: #F09;
+
+    
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      color: #FFF;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+    }
+
+    span {
+      display: block;
+    }
+
+    .titles {
+      
+      position: absolute;
+      
+      height: 100%;
+      width: 100%;
+      text-align: center;
+
+      
+      background: rgba(0,0,0,0.6);
+      opacity: 0;
+      transition: opacity 0.2s linear;
+    }
+
+    .h3 {
+      margin: 110px 0 15px;
+      transform: translate3d(0, 20px, 0);
+      transition: transform 0.25s ease-in-out 0.1s;
+    }
+    .h4 {
+      transform: translate3d(0, 20px, 0);
+      transition: transform 0.25s ease-in-out;
+    }
+
+    &:hover {
+      .titles {
+        opacity: 1;
+      }
+      .h3 {
+        transform: translate3d(0, 0, 0);
+        transition: transform 0.25s ease-in-out;
+      }
+      .h4 {
+        transform: translate3d(0, 0, 0);
+        transition: transform 0.25s ease-in-out 0.1s;
+      }
+    }
+
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
+  }
+}

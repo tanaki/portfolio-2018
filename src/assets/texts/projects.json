@@ -1,0 +1,458 @@
+{
+	"projects" : [
+
+		{
+			"slug" : "poppy-field",
+			"title" : "Poppy Field + Museum",
+			"type" : "Personal Project",
+			"company" : "Valentina d'Efilippo",
+			"company_detail" : "http://www.valentinadefilippo.co.uk/",
+			"cover" : "cover.png",
+
+			"description" : "This project was initiated by the very talented graphic designer and illustrator <a href='http://valentinadefilippo.co.uk/' target='_blank'>Valentina D'Efilippo</a>.<br>Based on an infographic from her book, we've build an interactive version of the graph.<br><br>First in November 2014, we've launched the website version, and since October 2017 it's part of the permanent exhibition at the Weltmuseum in Vienna, Austria.<br><br>Technically speaking, the project uses D3.js library for the SVG custom graph and a set of data from a static CSV file.",
+			"images" : [
+				{
+					"type" : "image",
+					"src" : "01_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "02_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "03_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "04_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "05_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "06_image.jpg"
+				}
+			],
+			"awards" : [
+				{
+					"label" : "",
+					"year" : "2014"
+				}
+			]
+		},
+
+		{
+			"slug" : "le-beau-jeu",
+			"title" : "Le Beau jeu",
+			"type" : "Collaboration",
+			"company" : "Accept and Proceed",
+			"company_detail" : "http://www.acceptandproceed.com/",
+			"cover" : "cover.jpg",
+
+			"description" : "I collaborated with Accept and Proceed to pull live data from every game of the UEFA Euro Championships 2016 and transform it into a visually engaging graphic. The challenge was to take their design and create a unique poster for every game then share it in real-time across Instagram, Twitter and a microsite.",
+			"images" : [
+				{
+					"type" : "video",
+					"src" : "01_video.mp4"
+				},
+				{
+					"type" : "image",
+					"src" : "02_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "03_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "04_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "05_image.jpg"
+				}
+			]
+		},
+
+		{
+			"slug" : "on-cloudventure",
+			"title" : "On Cloudventure - On",
+			"type" : "Freelance",
+			"company" : "On running",
+			"company_detail" : "http://www.on-running.com/",
+			"cover" : "cover.jpg",
+
+			"description" : "On Running contacted me to help them build a microsite for their latest trail running shoe. As a triathlete and On user, I was very excited to help them. This website runs bits of SVG to add some details, and a simple JSON file for each language.",
+			"images" : [
+				{
+					"type" : "image",
+					"src" : "01_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "02_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "03_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "04_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "05_image.jpg"
+				}
+			]
+		},
+
+		{
+			"slug" : "egull-pay-dashboard",
+			"title" : "eGull Pay Dashboard",
+			"type" : "Freelance - Startup",
+			"company" : "eGull",
+			"company_detail" : "http://golfs.egull.co",
+			"cover" : "cover.jpg",
+
+			"description" : "eGull is a startup that created a product for golf and golf players. The product is build in two parts.<br>1. a mobile app for players so they can track their rounds and pay as they go, for each hole played.<br>2. The dashboard for golf managers that allows to allow and manage each round.<br><br>I worked on the dashboard from scratch, creating the structure and linking it to the REST API, built by the backend developer. I've also coded custom tools for admin settings and drawing on maps.",
+			"images" : [
+				{
+					"type" : "image",
+					"src" : "01_image.png"
+				},
+				{
+					"type" : "image",
+					"src" : "02_image.png"
+				},
+				{
+					"type" : "image",
+					"src" : "03_image.png"
+				}
+			]
+		},
+
+		{
+			"slug" : "edwin-jeans",
+			"title" : "Edwin Jeans",
+			"type" : "Freelance",
+			"company" : "Sennep",
+			"company_detail" : "http://sennep.com",
+			"cover" : "cover.jpg",
+
+			"description" : "I've build most of the front-end for the new Edwin online store. It is meant to be a visual shopping experience for an innovative denim brand.",
+			"links" : [
+				{
+					"label" : "Sennep case study",
+					"href" : "http://www.sennep.com/work/edwin"
+				},
+				{
+					"label" : "Visit website",
+					"href" : "http://www.kantar.com"
+				}
+			],
+			"images" : [
+				{
+					"type" : "image",
+					"src" : "01_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "02_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "03_image.jpg"
+				}
+			],
+			"awards" : [
+				{
+					"year" : "2015",
+					"label" : "The Lovie Awards",
+					"category" : "Retail and Shopping - Gold"
+				},
+				{
+					"year" : "2015",
+					"label" : "The Lovie Awards",
+					"category" : "Best Practice - Silver"
+				},
+				{
+					"year" : "2015",
+					"label" : "Awwwards",
+					"category" : "Developer Award, June 24"
+				}
+			]
+		},
+
+		{
+			"slug" : "manifest-hermes",
+			"title" : "MANifest Hermès",
+			"type" : "Freelance",
+			"company" : "Soixante Circuits",
+			"company_detail" : "http://www.soixantecircuits.fr/",
+			"cover" : "cover.jpg",
+
+			"description" : "",
+			"images" : [
+				{
+					"type" : "video",
+					"src" : "01_video.mp4"
+				},
+				{
+					"type" : "image",
+					"src" : "02_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "03_image.jpg"
+				}
+			]
+		},
+
+		{
+			"slug" : "run-the-weather",
+			"title" : "Run the weather",
+			"type" : "Freelance",
+			"company" : "Accept and Proceed",
+			"company_detail" : "http://www.acceptandproceed.com/",
+			"cover" : "cover.jpg",
+
+			"description" : "",
+			"images" : [
+				{
+					"type" : "image",
+					"src" : "01_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "02_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "03_image.jpg"
+				}
+			]
+		},
+
+		{
+			"slug" : "dagobert-recrutement",
+			"title" : "Dagobert Recrutement mobile",
+			"type" : "Freelance",
+			"company" : "Dagobert",
+			"company_detail" : "http://www.dagobert.com/",
+			"cover" : "cover.jpg",
+
+			"description" : "",
+			"images" : [
+				{
+					"type" : "image",
+					"src" : "01_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "02_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "03_image.jpg"
+				}
+			]
+		},
+
+		{
+			"slug" : "coca-cola-social-wall",
+			"title" : "Coca cola Social Wall",
+			"type" : "Freelance",
+			"company" : "Soixante Circuits",
+			"company_detail" : "http://www.soixantecircuits.fr/",
+			"cover" : "cover.jpg",
+
+			"description" : "",
+			"images" : [
+				{
+					"type" : "image",
+					"src" : "01_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "02_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "03_image.jpg"
+				}
+			]
+		},
+
+		{
+			"slug" : "marie-laurent",
+			"title" : "Marie Laurent",
+			"type" : "Personal Project",
+			"company" : "Marie Laurent",
+			"company_detail" : "http://www.marielaurent.fr",
+			"cover" : "cover.jpg",
+
+			"description" : "I've build Marie Laurent's portfolio, she is a very talented art director, graphic designer and illustrator based in Paris.",
+			"links" : [
+				{
+					"label" : "Visit website",
+					"href" : "http://www.marielaurent.fr"
+				}
+			],
+			"images" : [
+				{
+					"type" : "image",
+					"src" : "01_image.jpg"
+				}
+			],
+			"awards" : [
+				{
+					"label" : "",
+					"year" : "2014"
+				}
+			]
+		},
+
+		{
+			"slug" : "kantar",
+			"title" : "Kantar",
+			"type" : "Freelance",
+			"company" : "Sennep",
+			"company_detail" : "http://sennep.com",
+			"cover" : "cover.jpg",
+
+			"description" : "Kantar is home to some of the world's leading research, data and insight companies. We've build a corporate website for them.<br><br>The website is fully responsive and uses Backbone JS and the underscore template engine. I work closely with the back-end developer to create the SEO-friendly no-javascript version.",
+			"links" : [
+				{
+					"label" : "Sennep case study",
+					"href" : "http://www.sennep.com/work/kantar"
+				},
+				{
+					"label" : "Visit website",
+					"href" : "http://www.kantar.com"
+				}
+			],
+			"images" : [
+				{
+					"type" : "image",
+					"src" : "01_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "02_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "03_image.jpg"
+				}
+			],
+			"awards" : [
+				{
+					"year" : "2014",
+					"label" : "The Lovie Awards",
+					"category" : "Corporate communication - Silver"
+				}
+			]
+		},
+
+		{
+			"slug" : "restaurant-le-duc",
+			"title" : "Restaurant Le Duc",
+			"type" : "Freelance",
+			"company" : "Marie Fiorucci",
+			"company_detail" : "http://mariefiorucci.com/",
+			"cover" : "cover.jpg",
+
+			"description" : "",
+			"images" : [
+				{
+					"type" : "image",
+					"src" : "01_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "02_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "03_image.jpg"
+				}
+			]
+		},
+
+		{
+			"slug" : "patisserie-gilles-marchal",
+			"title" : "Patisserie Gilles Marchal",
+			"type" : "Freelance",
+			"company" : "Marie Fiorucci",
+			"company_detail" : "http://mariefiorucci.com/",
+			"cover" : "cover.jpg",
+
+			"description" : "",
+			"images" : [
+				{
+					"type" : "image",
+					"src" : "01_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "02_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "03_image.jpg"
+				}
+			]
+		},
+
+		{
+			"slug" : "mindshare-mindreader",
+			"title" : "Mindhare",
+			"type" : "Fulltime",
+			"company" : "Pirata",
+			"cover" : "cover.jpg",
+
+			"description" : "Mindreader is a subset of Mindshare. The client wanted to create a website to present monthly question answered by people from all over the world.<br><br>We've build a simple interface that allows the user to compare the countries/regions of the world up to 4 simultaneously. I built it using SVG and RaphaelJS.",
+			"images" : [
+				{
+					"type" : "image",
+					"src" : "01_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "02_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "03_image.jpg"
+				}
+			]
+		},
+
+		{
+			"slug" : "kick-it-to-brazil",
+			"title" : "kick it to brazil",
+			"type" : "Freelance",
+			"cover" : "cover.jpg",
+
+			"description" : "On the website #kickittobrazil you can follow the journey of a football around the world. From Paris to Rio, during 60 days, you can see instagram and facebook posts during the travel and watch the daily videos. You can also influence the journey with votes and post your own photos to support the amazonian forrest.<br><br>The website is fully responsive and uses Backbone+Marionette JS and the underscore template engine.<br>I've also build the backend with scripts scanning different social networks (twitter, facebook and instagram) to get the hashtag #kickittobrazil.",
+			"images" : [
+				{
+					"type" : "image",
+					"src" : "01_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "02_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "03_image.jpg"
+				}
+			]
+		}
+	]
+}
