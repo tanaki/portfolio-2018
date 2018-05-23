@@ -41,8 +41,6 @@ footer {
     height: 270px;
     float: left;
     margin: 0 20px 20px 0;
-    background: #F09;
-
     
     a {
       display: block;
@@ -69,7 +67,7 @@ footer {
       text-align: center;
 
       
-      background: rgba(0,0,0,0.6);
+      background: rgba(0,0,0,0.8);
       opacity: 0;
       transition: opacity 0.2s linear;
     }

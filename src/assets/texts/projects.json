@@ -7,7 +7,7 @@
 			"type" : "Personal Project",
 			"company" : "Valentina d'Efilippo",
 			"company_detail" : "http://www.valentinadefilippo.co.uk/",
-			"cover" : "cover.png",
+			"cover" : "cover.jpg",
 
 			"description" : "This project was initiated by the very talented graphic designer and illustrator <a href='http://valentinadefilippo.co.uk/' target='_blank'>Valentina D'Efilippo</a>.<br>Based on an infographic from her book, we've build an interactive version of the graph.<br><br>First in November 2014, we've launched the website version, and since October 2017 it's part of the permanent exhibition at the Weltmuseum in Vienna, Austria.<br><br>Technically speaking, the project uses D3.js library for the SVG custom graph and a set of data from a static CSV file.",
 			"images" : [
@@ -113,7 +113,7 @@
 		{
 			"slug" : "egull-pay-dashboard",
 			"title" : "eGull Pay Dashboard",
-			"type" : "Freelance - Startup",
+			"type" : "Freelance",
 			"company" : "eGull",
 			"company_detail" : "http://golfs.egull.co",
 			"cover" : "cover.jpg",
@@ -122,15 +122,15 @@
 			"images" : [
 				{
 					"type" : "image",
-					"src" : "01_image.png"
+					"src" : "01_image.jpg"
 				},
 				{
 					"type" : "image",
-					"src" : "02_image.png"
+					"src" : "02_image.jpg"
 				},
 				{
 					"type" : "image",
-					"src" : "03_image.png"
+					"src" : "03_image.jpg"
 				}
 			]
 		},
@@ -410,7 +410,7 @@
 
 		{
 			"slug" : "mindshare-mindreader",
-			"title" : "Mindhare",
+			"title" : "Mindshare",
 			"type" : "Fulltime",
 			"company" : "Pirata",
 			"cover" : "cover.jpg",
@@ -434,7 +434,7 @@
 
 		{
 			"slug" : "kick-it-to-brazil",
-			"title" : "kick it to brazil",
+			"title" : "Kick it to Brazil",
 			"type" : "Freelance",
 			"cover" : "cover.jpg",
 
