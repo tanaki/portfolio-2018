@@ -1,7 +1,7 @@
 <template>
   <div class="content-about">
     <span v-html="about"></span>
-    <router-link to="">&times;</router-link>
+    <router-link to="" class="close">&times;</router-link>
   </div>
 </template>
 

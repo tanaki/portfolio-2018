@@ -10,7 +10,7 @@
 			"cover" : "cover.jpg",
 
 			"description" : "This project was initiated by the very talented graphic designer and illustrator <a href='http://valentinadefilippo.co.uk/' target='_blank'>Valentina D'Efilippo</a>.<br>Based on an infographic from her book, we've build an interactive version of the graph.<br><br>First in November 2014, we've launched the website version, and since October 2017 it's part of the permanent exhibition at the Weltmuseum in Vienna, Austria.<br><br>Technically speaking, the project uses D3.js library for the SVG custom graph and a set of data from a static CSV file.",
-			"images" : [
+			"media" : [
 				{
 					"type" : "image",
 					"src" : "01_image.jpg"
@@ -53,7 +53,7 @@
 			"cover" : "cover.jpg",
 
 			"description" : "I collaborated with Accept and Proceed to pull live data from every game of the UEFA Euro Championships 2016 and transform it into a visually engaging graphic. The challenge was to take their design and create a unique poster for every game then share it in real-time across Instagram, Twitter and a microsite.",
-			"images" : [
+			"media" : [
 				{
 					"type" : "video",
 					"src" : "01_video.mp4"
@@ -86,7 +86,7 @@
 			"cover" : "cover.jpg",
 
 			"description" : "On Running contacted me to help them build a microsite for their latest trail running shoe. As a triathlete and On user, I was very excited to help them. This website runs bits of SVG to add some details, and a simple JSON file for each language.",
-			"images" : [
+			"media" : [
 				{
 					"type" : "image",
 					"src" : "01_image.jpg"
@@ -119,7 +119,7 @@
 			"cover" : "cover.jpg",
 
 			"description" : "eGull is a startup that created a product for golf and golf players. The product is build in two parts.<br>1. a mobile app for players so they can track their rounds and pay as they go, for each hole played.<br>2. The dashboard for golf managers that allows to allow and manage each round.<br><br>I worked on the dashboard from scratch, creating the structure and linking it to the REST API, built by the backend developer. I've also coded custom tools for admin settings and drawing on maps.",
-			"images" : [
+			"media" : [
 				{
 					"type" : "image",
 					"src" : "01_image.jpg"
@@ -154,7 +154,7 @@
 					"href" : "http://www.kantar.com"
 				}
 			],
-			"images" : [
+			"media" : [
 				{
 					"type" : "image",
 					"src" : "01_image.jpg"
@@ -196,7 +196,7 @@
 			"cover" : "cover.jpg",
 
 			"description" : "",
-			"images" : [
+			"media" : [
 				{
 					"type" : "video",
 					"src" : "01_video.mp4"
@@ -221,7 +221,7 @@
 			"cover" : "cover.jpg",
 
 			"description" : "",
-			"images" : [
+			"media" : [
 				{
 					"type" : "image",
 					"src" : "01_image.jpg"
@@ -246,7 +246,7 @@
 			"cover" : "cover.jpg",
 
 			"description" : "",
-			"images" : [
+			"media" : [
 				{
 					"type" : "image",
 					"src" : "01_image.jpg"
@@ -271,7 +271,7 @@
 			"cover" : "cover.jpg",
 
 			"description" : "",
-			"images" : [
+			"media" : [
 				{
 					"type" : "image",
 					"src" : "01_image.jpg"
@@ -302,7 +302,7 @@
 					"href" : "http://www.marielaurent.fr"
 				}
 			],
-			"images" : [
+			"media" : [
 				{
 					"type" : "image",
 					"src" : "01_image.jpg"
@@ -335,7 +335,7 @@
 					"href" : "http://www.kantar.com"
 				}
 			],
-			"images" : [
+			"media" : [
 				{
 					"type" : "image",
 					"src" : "01_image.jpg"
@@ -367,7 +367,7 @@
 			"cover" : "cover.jpg",
 
 			"description" : "",
-			"images" : [
+			"media" : [
 				{
 					"type" : "image",
 					"src" : "01_image.jpg"
@@ -392,7 +392,7 @@
 			"cover" : "cover.jpg",
 
 			"description" : "",
-			"images" : [
+			"media" : [
 				{
 					"type" : "image",
 					"src" : "01_image.jpg"
@@ -416,7 +416,7 @@
 			"cover" : "cover.jpg",
 
 			"description" : "Mindreader is a subset of Mindshare. The client wanted to create a website to present monthly question answered by people from all over the world.<br><br>We've build a simple interface that allows the user to compare the countries/regions of the world up to 4 simultaneously. I built it using SVG and RaphaelJS.",
-			"images" : [
+			"media" : [
 				{
 					"type" : "image",
 					"src" : "01_image.jpg"
@@ -439,7 +439,7 @@
 			"cover" : "cover.jpg",
 
 			"description" : "On the website #kickittobrazil you can follow the journey of a football around the world. From Paris to Rio, during 60 days, you can see instagram and facebook posts during the travel and watch the daily videos. You can also influence the journey with votes and post your own photos to support the amazonian forrest.<br><br>The website is fully responsive and uses Backbone+Marionette JS and the underscore template engine.<br>I've also build the backend with scripts scanning different social networks (twitter, facebook and instagram) to get the hashtag #kickittobrazil.",
-			"images" : [
+			"media" : [
 				{
 					"type" : "image",
 					"src" : "01_image.jpg"

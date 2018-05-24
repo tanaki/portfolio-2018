@@ -25,6 +25,15 @@ body {
     background: #000;
     color: #FFF;
   }
+
+  .close {
+    font-size: 50px;
+    color: #FFF;
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+  }
 }
 
 header {
@@ -82,7 +91,7 @@ header {
 
 footer {
   text-align: center;
-  margin-bottom: 30px;
+  margin: 30px 0;
 
   a {
     color: #000;
@@ -176,6 +185,30 @@ footer {
 
     &:nth-child(4n) {
       margin-right: 0;
+    }
+  }
+}
+
+.project {
+  overflow: hidden;
+
+  .column {
+
+  }
+  .column-text {
+    float: left;
+    width: 310px;
+    margin-right: 20px;
+  }
+  .column-media {
+    float: left;
+    width: 810px;
+
+    img,
+    video {
+      display: block;
+      width: 100%;
+      margin-bottom: 20px;
     }
   }
 }

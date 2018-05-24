@@ -3,7 +3,6 @@ import Router from 'vue-router'
 import NotFoundComponent from './components/NotFoundComponent.vue'
 import Works from './components/Works.vue'
 import Work from './components/Work.vue'
-import About from './components/About.vue'
 
 Vue.use(Router)
 
