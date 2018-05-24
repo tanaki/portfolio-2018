@@ -1,6 +1,7 @@
 <template>
-  <div class="about">
+  <div class="content-about">
     <span v-html="about"></span>
+    <router-link to="">&times;</router-link>
   </div>
 </template>
 

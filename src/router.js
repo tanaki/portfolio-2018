@@ -20,11 +20,6 @@ export default new Router({
       name: 'work',
       component: Work
     },
-    {
-      path: '/about',
-      name: 'about',
-      component: About
-    },
     { 
       path: '*', 
       name : '404',

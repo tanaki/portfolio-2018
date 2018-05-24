@@ -4,8 +4,9 @@
       <li v-for="(project, index) in projects" :key='index' class="project">
         <router-link v-bind:to="{ path: '/works/' + project.slug }" class="project-link">
           <span class="titles">
-            <span class="h3">{{project.title}}</span>
-            <span class="h4">{{project.type}}</span>
+            <span class="title">{{project.title}}</span>
+            <span class="type">{{project.type}}</span>
+            <span class="dash">&mdash;</span>
           </span>
           <img v-bind:src="'/img/work/'+project.slug+'/'+project.cover" >
         </router-link>

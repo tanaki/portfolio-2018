@@ -3,7 +3,7 @@
 
 		{
 			"slug" : "poppy-field",
-			"title" : "Poppy Field + Museum",
+			"title" : "Poppy Field",
 			"type" : "Personal Project",
 			"company" : "Valentina d'Efilippo",
 			"company_detail" : "http://www.valentinadefilippo.co.uk/",
@@ -79,7 +79,7 @@
 
 		{
 			"slug" : "on-cloudventure",
-			"title" : "On Cloudventure - On",
+			"title" : "On Cloudventure",
 			"type" : "Freelance",
 			"company" : "On running",
 			"company_detail" : "http://www.on-running.com/",
@@ -112,7 +112,7 @@
 
 		{
 			"slug" : "egull-pay-dashboard",
-			"title" : "eGull Pay Dashboard",
+			"title" : "eGullPay Dashboard",
 			"type" : "Freelance",
 			"company" : "eGull",
 			"company_detail" : "http://golfs.egull.co",
@@ -239,7 +239,7 @@
 
 		{
 			"slug" : "dagobert-recrutement",
-			"title" : "Dagobert Recrutement mobile",
+			"title" : "Dagomatch",
 			"type" : "Freelance",
 			"company" : "Dagobert",
 			"company_detail" : "http://www.dagobert.com/",
@@ -264,7 +264,7 @@
 
 		{
 			"slug" : "coca-cola-social-wall",
-			"title" : "Coca cola Social Wall",
+			"title" : "Social Wall",
 			"type" : "Freelance",
 			"company" : "Soixante Circuits",
 			"company_detail" : "http://www.soixantecircuits.fr/",
@@ -385,7 +385,7 @@
 
 		{
 			"slug" : "patisserie-gilles-marchal",
-			"title" : "Patisserie Gilles Marchal",
+			"title" : "Gilles Marchal",
 			"type" : "Freelance",
 			"company" : "Marie Fiorucci",
 			"company_detail" : "http://mariefiorucci.com/",

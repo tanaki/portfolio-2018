@@ -1,33 +1,93 @@
 
 body {
   background: #FFFFFF;
-  font-family: "geomanistregular", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .wrapper {
   max-width: 1140px;
   margin: 0 auto;
+
+  .content-about {
+    display: none;
+  }
+}
+
+.about {
+  
+  .content-about {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    color: #FFF;
+  }
 }
 
 header {
+  
+  font-size: 18px;
+  line-height: 22px;
+
   overflow: hidden;
-  padding-top: 30px;
+  padding: 50px 0 20px;
   text-transform: uppercase;
-}
-header h1 {
-  float: left;
-  padding: 0;
-}
-header .menu {
-  float: right;
-}
-header .menu li {
-  display: inline-block;
+  font-family: "geomanistregular", sans-serif;
+
+  h1 {
+    float: left;
+    padding: 0;
+  }
+  .menu {
+    float: right;
+
+    li {
+      display: inline-block;
+      margin-left: 15px;
+    }
+    a {
+      text-decoration: none;
+      color: #000;
+
+      position: relative;
+
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: auto;
+
+
+        height: 1px;
+        width: 0;
+        background: #000;
+
+        transition: width 0.2s ease-in-out;
+      }
+      &:hover {
+        &:after {
+          left: 0;
+          right: auto;
+
+          width: 100%;
+        }
+      }
+    }
+  }
 }
 
 footer {
   text-align: center;
   margin-bottom: 30px;
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
 }
 
 .projects {
@@ -59,25 +119,38 @@ footer {
     }
 
     .titles {
-      
       position: absolute;
       
       height: 100%;
       width: 100%;
       text-align: center;
-
       
-      background: rgba(0,0,0,0.8);
+      background: rgba(0,0,0,0.7);
       opacity: 0;
-      transition: opacity 0.2s linear;
+      transition: opacity 0.2s linear 0.05s;
     }
 
-    .h3 {
-      margin: 110px 0 15px;
+    .title {
+
+      font-size: 24px;
+      color: #FFF;
+      margin: 110px 0 10px;
+
+      transform: translate3d(0, 20px, 0);
+      transition: transform 0.25s ease-in-out 0.15s;
+    }
+    .type {
+      font-size: 18px;
+      color: #B9B9B9;
+
       transform: translate3d(0, 20px, 0);
       transition: transform 0.25s ease-in-out 0.1s;
     }
-    .h4 {
+    .dash {
+      font-size: 18px;
+      color: #FFFFFF;
+      margin-top: 4px;
+
       transform: translate3d(0, 20px, 0);
       transition: transform 0.25s ease-in-out;
     }
@@ -85,14 +158,19 @@ footer {
     &:hover {
       .titles {
         opacity: 1;
+        transition: opacity 0.2s linear;
       }
-      .h3 {
+      .title {
         transform: translate3d(0, 0, 0);
         transition: transform 0.25s ease-in-out;
       }
-      .h4 {
+      .type {
         transform: translate3d(0, 0, 0);
         transition: transform 0.25s ease-in-out 0.1s;
+      }
+      .dash {
+        transform: translate3d(0, 0, 0);
+        transition: transform 0.25s ease-in-out 0.15s;
       }
     }
 

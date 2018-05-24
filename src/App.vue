@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="wrapper">
+  <div id="app" class="wrapper" v-bind:class="{ about : ($route.hash == '#about') }">
 
     <header>
         
@@ -10,7 +10,7 @@
             <router-link to="/">Works</router-link>
           </li>
           <li>
-            <router-link to="/about">About</router-link>
+            <router-link to="#about">About</router-link>
           </li>
         </ul>
       </div>
@@ -20,19 +20,23 @@
     <router-view :key="$route.fullPath" />
     
     <footer>
-      &copy; 2018 - <a href="mailto:nico@nicolaspigelet.com?subject=Take+my+money" target="_blank">Nicolas Pigelet</a>
+      &copy; <a href="mailto:nico@nicolaspigelet.com?subject=Take+my+money" target="_blank">Nicolas Pigelet</a> - 2018
     </footer>
+
+    <About />
 
   </div>
 </template>
 
 <script>
+import About from './components/About.vue'
 import Works from './components/Works.vue'
 
 export default {
   name: 'app',
   components: {
-    Works
+    Works,
+    About
   }
 }
 </script>
