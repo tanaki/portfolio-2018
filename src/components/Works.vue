@@ -5,7 +5,7 @@
         <router-link v-bind:to="{ path: '/works/' + project.slug }" class="project-link">
           <span class="titles">
             <span class="title">{{project.title}}</span>
-            <span class="type">{{project.type}}</span>
+            <span class="context">{{project.context}}</span>
             <span class="dash">&mdash;</span>
           </span>
           <img v-bind:src="'/img/work/'+project.slug+'/'+project.cover" >

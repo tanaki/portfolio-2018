@@ -1,0 +1,45 @@
+
+.project {
+  overflow: hidden;
+
+  .project-nav {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .column {
+
+  }
+
+  .column-media {
+    float: left;
+    width: 810px;
+
+    img,
+    video {
+      display: block;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.column-text {
+  float: left;
+  width: 310px;
+
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+
+  &.right-aligned {
+    margin-left: 20px;
+  }
+  &.left-aligned {
+    margin-right: 20px;
+  }
+
+  .block {
+    margin-bottom: 20px;
+  }
+}

@@ -4,12 +4,23 @@
 		{
 			"slug" : "poppy-field",
 			"title" : "Poppy Field",
-			"type" : "Personal Project",
+			"type" : "Website/Installation",
+			"context" : "Personal Project",
 			"company" : "Valentina d'Efilippo",
 			"company_detail" : "http://www.valentinadefilippo.co.uk/",
 			"cover" : "cover.jpg",
 
 			"description" : "This project was initiated by the very talented graphic designer and illustrator <a href='http://valentinadefilippo.co.uk/' target='_blank'>Valentina D'Efilippo</a>.<br>Based on an infographic from her book, we've build an interactive version of the graph.<br><br>First in November 2014, we've launched the website version, and since October 2017 it's part of the permanent exhibition at the Weltmuseum in Vienna, Austria.<br><br>Technically speaking, the project uses D3.js library for the SVG custom graph and a set of data from a static CSV file.",
+			"links" : [
+				{
+					"label" : "Visit website",
+					"href" : "http://www.poppyfield.org/"
+				},
+				{
+					"label" : "Valentina's case study",
+					"href" : "http://www.valentinadefilippo.co.uk/projects/poppy-field/"
+				}
+			],
 			"media" : [
 				{
 					"type" : "image",
@@ -38,8 +49,9 @@
 			],
 			"awards" : [
 				{
-					"label" : "",
-					"year" : "2014"
+					"year" : "2015",
+					"label" : "European Design Awards",
+					"category" : "Silver - Information site"
 				}
 			]
 		},
@@ -47,16 +59,24 @@
 		{
 			"slug" : "le-beau-jeu",
 			"title" : "Le Beau jeu",
-			"type" : "Collaboration",
+			"type" : "Visual experimentation / Website",
+			"context" : "Collaboration",
 			"company" : "Accept and Proceed",
 			"company_detail" : "http://www.acceptandproceed.com/",
 			"cover" : "cover.jpg",
 
 			"description" : "I collaborated with Accept and Proceed to pull live data from every game of the UEFA Euro Championships 2016 and transform it into a visually engaging graphic. The challenge was to take their design and create a unique poster for every game then share it in real-time across Instagram, Twitter and a microsite.",
+			"links" : [
+				{
+					"label" : "View website",
+					"src" : "http://lebeaujeu.fr/"
+				}
+			],
 			"media" : [
 				{
 					"type" : "video",
-					"src" : "01_video.mp4"
+					"src" : "01_video.mp4",
+					"poster" : "01_image.jpg"
 				},
 				{
 					"type" : "image",
@@ -69,10 +89,6 @@
 				{
 					"type" : "image",
 					"src" : "04_image.jpg"
-				},
-				{
-					"type" : "image",
-					"src" : "05_image.jpg"
 				}
 			]
 		},
@@ -80,12 +96,19 @@
 		{
 			"slug" : "on-cloudventure",
 			"title" : "On Cloudventure",
-			"type" : "Freelance",
+			"type" : "Website",
+			"context" : "Freelance",
 			"company" : "On running",
 			"company_detail" : "http://www.on-running.com/",
 			"cover" : "cover.jpg",
 
 			"description" : "On Running contacted me to help them build a microsite for their latest trail running shoe. As a triathlete and On user, I was very excited to help them. This website runs bits of SVG to add some details, and a simple JSON file for each language.",
+			"links" : [
+				{
+					"label" : "View website",
+					"src" : "http://cloudventure.on-running.com/"
+				}
+			],
 			"media" : [
 				{
 					"type" : "image",
@@ -102,10 +125,6 @@
 				{
 					"type" : "image",
 					"src" : "04_image.jpg"
-				},
-				{
-					"type" : "image",
-					"src" : "05_image.jpg"
 				}
 			]
 		},
@@ -113,7 +132,8 @@
 		{
 			"slug" : "egull-pay-dashboard",
 			"title" : "eGullPay Dashboard",
-			"type" : "Freelance",
+			"type" : "Desktop Application (electron webview)",
+			"context" : "Freelance",
 			"company" : "eGull",
 			"company_detail" : "http://golfs.egull.co",
 			"cover" : "cover.jpg",
@@ -138,7 +158,8 @@
 		{
 			"slug" : "edwin-jeans",
 			"title" : "Edwin Jeans",
-			"type" : "Freelance",
+			"type" : "Website",
+			"context" : "Freelance",
 			"company" : "Sennep",
 			"company_detail" : "http://sennep.com",
 			"cover" : "cover.jpg",
@@ -150,7 +171,7 @@
 					"href" : "http://www.sennep.com/work/edwin"
 				},
 				{
-					"label" : "Visit website",
+					"label" : "View website",
 					"href" : "http://www.kantar.com"
 				}
 			],
@@ -190,37 +211,19 @@
 		{
 			"slug" : "manifest-hermes",
 			"title" : "MANifest Hermès",
-			"type" : "Freelance",
+			"type" : "Interactive Installation",
+			"context" : "Freelance",
 			"company" : "Soixante Circuits",
 			"company_detail" : "http://www.soixantecircuits.fr/",
 			"cover" : "cover.jpg",
 
 			"description" : "",
-			"media" : [
+			"links" : [
 				{
-					"type" : "video",
-					"src" : "01_video.mp4"
-				},
-				{
-					"type" : "image",
-					"src" : "02_image.jpg"
-				},
-				{
-					"type" : "image",
-					"src" : "03_image.jpg"
+					"label" : "Soixante circuits case study",
+					"src" : "https://vimeo.com/196457017"
 				}
-			]
-		},
-
-		{
-			"slug" : "run-the-weather",
-			"title" : "Run the weather",
-			"type" : "Freelance",
-			"company" : "Accept and Proceed",
-			"company_detail" : "http://www.acceptandproceed.com/",
-			"cover" : "cover.jpg",
-
-			"description" : "",
+			],
 			"media" : [
 				{
 					"type" : "image",
@@ -238,14 +241,55 @@
 		},
 
 		{
+			"slug" : "run-the-weather",
+			"title" : "Run the weather",
+			"type" : "Visual experimentation / Website",
+			"context" : "Freelance",
+			"company" : "Accept and Proceed",
+			"company_detail" : "http://www.acceptandproceed.com/",
+			"cover" : "cover.jpg",
+
+			"description" : "",
+			"media" : [
+				{
+					"type" : "image",
+					"src" : "01_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "02_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "03_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "04_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "05_image.jpg"
+				}
+			]
+		},
+
+		{
 			"slug" : "dagobert-recrutement",
 			"title" : "Dagomatch",
-			"type" : "Freelance",
+			"type" : "Mobile website",
+			"context" : "Freelance",
 			"company" : "Dagobert",
 			"company_detail" : "http://www.dagobert.com/",
 			"cover" : "cover.jpg",
 
-			"description" : "",
+			"description" : "Dagomatch is a mobile recruitment campaign website. The idea is to answer a few questions by theme selected - that matches your professional profile.<br>As a result you get a percentage match and you can apply to a job via this website.<br><br>I've build the website with VueJS and added some SVG animated transitions.",
+			"links" : [
+				{
+					"label" : "View website",
+					"href" : "http://dagomatch.dagobert.com/"
+				}
+			],
 			"media" : [
 				{
 					"type" : "image",
@@ -265,12 +309,19 @@
 		{
 			"slug" : "coca-cola-social-wall",
 			"title" : "Social Wall",
-			"type" : "Freelance",
+			"type" : "Interactive Installation",
+			"context" : "Freelance",
 			"company" : "Soixante Circuits",
 			"company_detail" : "http://www.soixantecircuits.fr/",
 			"cover" : "cover.jpg",
 
 			"description" : "",
+			"links" : [
+				{
+					"label" : "Case study",
+					"src" : "https://vimeo.com/150673762"
+				}
+			],
 			"media" : [
 				{
 					"type" : "image",
@@ -279,10 +330,6 @@
 				{
 					"type" : "image",
 					"src" : "02_image.jpg"
-				},
-				{
-					"type" : "image",
-					"src" : "03_image.jpg"
 				}
 			]
 		},
@@ -290,7 +337,8 @@
 		{
 			"slug" : "marie-laurent",
 			"title" : "Marie Laurent",
-			"type" : "Personal Project",
+			"type" : "Website",
+			"context" : "Personal Project",
 			"company" : "Marie Laurent",
 			"company_detail" : "http://www.marielaurent.fr",
 			"cover" : "cover.jpg",
@@ -298,7 +346,7 @@
 			"description" : "I've build Marie Laurent's portfolio, she is a very talented art director, graphic designer and illustrator based in Paris.",
 			"links" : [
 				{
-					"label" : "Visit website",
+					"label" : "View website",
 					"href" : "http://www.marielaurent.fr"
 				}
 			],
@@ -319,7 +367,8 @@
 		{
 			"slug" : "kantar",
 			"title" : "Kantar",
-			"type" : "Freelance",
+			"type" : "Website",
+			"context" : "Freelance",
 			"company" : "Sennep",
 			"company_detail" : "http://sennep.com",
 			"cover" : "cover.jpg",
@@ -331,7 +380,7 @@
 					"href" : "http://www.sennep.com/work/kantar"
 				},
 				{
-					"label" : "Visit website",
+					"label" : "View website",
 					"href" : "http://www.kantar.com"
 				}
 			],
@@ -343,10 +392,6 @@
 				{
 					"type" : "image",
 					"src" : "02_image.jpg"
-				},
-				{
-					"type" : "image",
-					"src" : "03_image.jpg"
 				}
 			],
 			"awards" : [
@@ -361,7 +406,8 @@
 		{
 			"slug" : "restaurant-le-duc",
 			"title" : "Restaurant Le Duc",
-			"type" : "Freelance",
+			"type" : "Website",
+			"context" : "Freelance",
 			"company" : "Marie Fiorucci",
 			"company_detail" : "http://mariefiorucci.com/",
 			"cover" : "cover.jpg",
@@ -386,7 +432,8 @@
 		{
 			"slug" : "patisserie-gilles-marchal",
 			"title" : "Gilles Marchal",
-			"type" : "Freelance",
+			"type" : "Website",
+			"context" : "Freelance",
 			"company" : "Marie Fiorucci",
 			"company_detail" : "http://mariefiorucci.com/",
 			"cover" : "cover.jpg",
@@ -411,7 +458,8 @@
 		{
 			"slug" : "mindshare-mindreader",
 			"title" : "Mindshare",
-			"type" : "Fulltime",
+			"type" : "Website",
+			"context" : "Fulltime",
 			"company" : "Pirata",
 			"cover" : "cover.jpg",
 
@@ -424,10 +472,6 @@
 				{
 					"type" : "image",
 					"src" : "02_image.jpg"
-				},
-				{
-					"type" : "image",
-					"src" : "03_image.jpg"
 				}
 			]
 		},
@@ -435,7 +479,9 @@
 		{
 			"slug" : "kick-it-to-brazil",
 			"title" : "Kick it to Brazil",
-			"type" : "Freelance",
+			"type" : "Website",
+			"context" : "Freelance",
+			"company" : "Creaktif",
 			"cover" : "cover.jpg",
 
 			"description" : "On the website #kickittobrazil you can follow the journey of a football around the world. From Paris to Rio, during 60 days, you can see instagram and facebook posts during the travel and watch the daily videos. You can also influence the journey with votes and post your own photos to support the amazonian forrest.<br><br>The website is fully responsive and uses Backbone+Marionette JS and the underscore template engine.<br>I've also build the backend with scripts scanning different social networks (twitter, facebook and instagram) to get the hashtag #kickittobrazil.",

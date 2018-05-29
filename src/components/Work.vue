@@ -1,28 +1,17 @@
 <template>
-  <div class="project">
+  <div class="project-view project">
     
-    <router-link :to="{ path: '/works/' + prev }">prev</router-link>
-    <span>{{index}}/{{total}}</span>
-    <router-link :to="{ path: '/works/' + next }">next</router-link>
+    <div class="project-nav">
+      <router-link :to="{ path: '/works/' + prev }">prev</router-link>
+      <span>{{index}}/{{total}}</span>
+      <router-link :to="{ path: '/works/' + next }">next</router-link>
+    </div>
     
-    <div v-if="project">
-      
-      <div class="column column-text">
-        <h1>{{project.title}}</h1>
-        <p>{{project.type}}</p>
-        <p>
-          <span v-html="project.description"></span>
-        </p>
-      </div>
+    <div class="project-content" v-if="project">
 
-      <div class="column column-media">
-        <div v-for="(media, index) in project.media" :key="index">
-
-          <img v-if="media.type == 'image'" v-bind:src="'/img/work/'+project.slug+'/'+media.src">
-          <video v-else v-bind:src="'/img/work/'+project.slug+'/'+media.src" autobuffer  controls></video>
-          
-        </div>
-      </div>
+      <WorkMedia v-if="!isLeftColTemplate" :project="project"></WorkMedia>
+      <WorkDetail :project="project" :alignClass="alignClass"></WorkDetail>
+      <WorkMedia v-if="isLeftColTemplate" :project="project"></WorkMedia>
 
     </div>
     
@@ -32,6 +21,9 @@
 <script>
 import router from '../router';  
 import dataProjects from '../assets/texts/projects.json';
+
+import WorkDetail from '../components/WorkDetail.vue';
+import WorkMedia from '../components/WorkMedia.vue';
 
 export default {
   name: 'Work',
@@ -53,18 +45,25 @@ export default {
         return p.slug == slug
       } )[0]
 
-    // eslint-disable-next-line
     if ( !projectDetail ) {
       router.push({ path : '/404' })
     }
+
+    let isLeftColTemplate = (currentIndex % 2 === 0)
 
     return {
       project : projectDetail,
       total : projects.length,
       index : currentIndex,
       next : nextSlug,
-      prev : prevSlug
+      prev : prevSlug,
+      isLeftColTemplate : isLeftColTemplate,
+      alignClass : (isLeftColTemplate ? 'left-aligned' : 'right-aligned')
     }
+  },
+  components: {
+    WorkDetail,
+    WorkMedia
   }
 }
 </script>

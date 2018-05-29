@@ -17,7 +17,10 @@
 
     </header>
 
-    <router-view :key="$route.fullPath" />
+    <!-- <router-view :key="$route.fullPath" /> -->
+    <transition :name="transitionName">
+      <router-view :key="$route.fullPath" />
+    </transition>
     
     <footer>
       &copy; <a href="mailto:nico@nicolaspigelet.com?subject=Take+my+money" target="_blank">Nicolas Pigelet</a> - 2018
@@ -29,14 +32,29 @@
 </template>
 
 <script>
-import About from './components/About.vue'
 import Works from './components/Works.vue'
+import About from './components/About.vue'
 
 export default {
   name: 'app',
   components: {
     Works,
     About
+  },
+  data () {
+    return {
+      transitionName : ''
+    }
+  },
+  watch: {
+    '$route' (to, from) {
+      const toDepth = to.path.split('/').length
+      const fromDepth = from.path.split('/').length
+      this.transitionName = toDepth < fromDepth ? 'slide-right' : 'slide-left'
+
+      // eslint-disable-next-line
+      console.log('watch', this.transitionName)
+    }
   }
 }
 </script>
@@ -46,4 +64,6 @@ export default {
   @import './assets/scss/fonts.scss';
   @import './assets/scss/reset.scss';
   @import './assets/scss/main.scss';
+  @import './assets/scss/projects.scss';
+  @import './assets/scss/project.scss';
 </style>

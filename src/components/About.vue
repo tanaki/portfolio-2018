@@ -13,7 +13,8 @@ export default {
   name: 'About',
   data () {
     return {
-      about : dataAbout.about
+      about : dataAbout.about,
+      modal : true
     }
   }
 }
