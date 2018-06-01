@@ -63,6 +63,7 @@ export default {
 
   @import './assets/scss/fonts.scss';
   @import './assets/scss/reset.scss';
+  @import './assets/scss/variables.scss';
   @import './assets/scss/main.scss';
   @import './assets/scss/projects.scss';
   @import './assets/scss/project.scss';

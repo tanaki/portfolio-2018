@@ -8,12 +8,13 @@
     </div>
 
     <div class="block block-client">
-      {{project.company}}
+      <a :href="project.company_detail" target="_blank">{{project.company}}</a><br>
+      {{project.context}}
     </div>
 
     <div v-if="project.links" class="block block-links">
       <div v-for="(link, index) in project.links" :key="index">
-        {{link.label}} - {{link.href}}
+        <a :href="link.src" target="_blank">{{link.label}}</a>
       </div>
     </div>
 
@@ -22,6 +23,7 @@
     </div>
 
     <div v-if="project.awards" class="block block-awards">
+      <h3>Awards</h3>
       <div v-for="(award, index) in project.awards" :key="index">
         <p>{{award.year}} - {{award.label}}</p>
         <p>{{award.category}}</p>

@@ -1,7 +1,7 @@
 
 body {
   background: #FFFFFF;
-  font-family: "Raleway", sans-serif;
+  font-family: $sans;
 
   max-width: 100%;
   overflow-x: hidden;
@@ -48,17 +48,6 @@ body {
   }
 }
 
-.project-view {  
-  /*position: absolute;*/
-  transition: all .5s cubic-bezier(.55,0,.1,1);
-}
-
-.slide-left-enter {
-  transform: translate3d(810px, 0, 0);
-}
-.slide-left-leave-active {
-  transform: translate(-810px, 0, 0);
-}
 
 header {
   
@@ -68,7 +57,7 @@ header {
   overflow: hidden;
   padding: 50px 0 20px;
   text-transform: uppercase;
-  font-family: "geomanistregular", sans-serif;
+  font-family: $sansTitle;
 
   h1 {
     float: left;
@@ -81,11 +70,8 @@ header {
       display: inline-block;
       margin-left: 15px;
     }
-    a, button {
+    a {
       
-      outline: none;
-      cursor: pointer;
-      font-family: "geomanistregular", sans-serif;
       font-weight: 400;
       font-size: 18px;
       line-height: 22px;

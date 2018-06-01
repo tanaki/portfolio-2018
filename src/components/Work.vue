@@ -2,9 +2,9 @@
   <div class="project-view project">
     
     <div class="project-nav">
-      <router-link :to="{ path: '/works/' + prev }">prev</router-link>
-      <span>{{index}}/{{total}}</span>
-      <router-link :to="{ path: '/works/' + next }">next</router-link>
+      <router-link :to="{ path: '/works/' + prev }" class="btn-prev">&lsaquo;</router-link>
+      <span class="nav-index">{{index}}/{{total}}</span>
+      <router-link :to="{ path: '/works/' + next }" class="btn-next">&rsaquo;</router-link>
     </div>
     
     <div class="project-content" v-if="project">

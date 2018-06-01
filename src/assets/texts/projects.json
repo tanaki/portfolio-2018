@@ -4,7 +4,7 @@
 		{
 			"slug" : "poppy-field",
 			"title" : "Poppy Field",
-			"type" : "Website/Installation",
+			"type" : "Website + Installation",
 			"context" : "Personal Project",
 			"company" : "Valentina d'Efilippo",
 			"company_detail" : "http://www.valentinadefilippo.co.uk/",
@@ -14,11 +14,11 @@
 			"links" : [
 				{
 					"label" : "Visit website",
-					"href" : "http://www.poppyfield.org/"
+					"src" : "http://www.poppyfield.org/"
 				},
 				{
 					"label" : "Valentina's case study",
-					"href" : "http://www.valentinadefilippo.co.uk/projects/poppy-field/"
+					"src" : "http://www.valentinadefilippo.co.uk/projects/poppy-field/"
 				}
 			],
 			"media" : [
@@ -59,7 +59,7 @@
 		{
 			"slug" : "le-beau-jeu",
 			"title" : "Le Beau jeu",
-			"type" : "Visual experimentation / Website",
+			"type" : "Visual experimentation + Website",
 			"context" : "Collaboration",
 			"company" : "Accept and Proceed",
 			"company_detail" : "http://www.acceptandproceed.com/",
@@ -132,7 +132,7 @@
 		{
 			"slug" : "egull-pay-dashboard",
 			"title" : "eGullPay Dashboard",
-			"type" : "Desktop Application (electron webview)",
+			"type" : "Desktop Application",
 			"context" : "Freelance",
 			"company" : "eGull",
 			"company_detail" : "http://golfs.egull.co",
@@ -168,11 +168,11 @@
 			"links" : [
 				{
 					"label" : "Sennep case study",
-					"href" : "http://www.sennep.com/work/edwin"
+					"src" : "http://www.sennep.com/work/edwin"
 				},
 				{
 					"label" : "View website",
-					"href" : "http://www.kantar.com"
+					"src" : "http://www.kantar.com"
 				}
 			],
 			"media" : [
@@ -217,11 +217,15 @@
 			"company_detail" : "http://www.soixantecircuits.fr/",
 			"cover" : "cover.jpg",
 
-			"description" : "",
+			"description" : "Soixante circuits contacted me to help them build the interface on an interactive booth they've build for Hermès.<br>The interface let you build a poem and then you have to recite it while being filmed, using a face-detection library we were able to display the words as they were being said.<br>Then you could share your poem to the world via a generated gif sent to you.<br><br>The outside screen allows the visitor to relive all the previous poems.",
 			"links" : [
 				{
-					"label" : "Soixante circuits case study",
+					"label" : "Video case study",
 					"src" : "https://vimeo.com/196457017"
+				},
+				{
+					"label" : "Soixante circuits case study",
+					"src" : "https://www.behance.net/gallery/34770145/Visual-Poetry-MANifeste"
 				}
 			],
 			"media" : [
@@ -243,7 +247,7 @@
 		{
 			"slug" : "run-the-weather",
 			"title" : "Run the weather",
-			"type" : "Visual experimentation / Website",
+			"type" : "Visual experimentation + Website",
 			"context" : "Freelance",
 			"company" : "Accept and Proceed",
 			"company_detail" : "http://www.acceptandproceed.com/",
@@ -287,7 +291,7 @@
 			"links" : [
 				{
 					"label" : "View website",
-					"href" : "http://dagomatch.dagobert.com/"
+					"src" : "http://dagomatch.dagobert.com/"
 				}
 			],
 			"media" : [
@@ -315,7 +319,7 @@
 			"company_detail" : "http://www.soixantecircuits.fr/",
 			"cover" : "cover.jpg",
 
-			"description" : "",
+			"description" : "Soixante circuits (along with Headoo, Auditoire and Bonhomme) built a social wall for Coca Cola in the AccorHotel Arena (the biggest indoor entertainment arena in Paris).<br>I've helped them polished the details on the final interface using web technologies, NodeJS and Javascript mainly.",
 			"links" : [
 				{
 					"label" : "Case study",
@@ -347,7 +351,7 @@
 			"links" : [
 				{
 					"label" : "View website",
-					"href" : "http://www.marielaurent.fr"
+					"src" : "http://www.marielaurent.fr"
 				}
 			],
 			"media" : [
@@ -377,11 +381,11 @@
 			"links" : [
 				{
 					"label" : "Sennep case study",
-					"href" : "http://www.sennep.com/work/kantar"
+					"src" : "http://www.sennep.com/work/kantar"
 				},
 				{
 					"label" : "View website",
-					"href" : "http://www.kantar.com"
+					"src" : "http://www.kantar.com"
 				}
 			],
 			"media" : [
@@ -412,7 +416,7 @@
 			"company_detail" : "http://mariefiorucci.com/",
 			"cover" : "cover.jpg",
 
-			"description" : "",
+			"description" : "Restaurant Le Duc is one of the finest fish and seafood restaurant in Paris.<br><a href='http://mariefiorucci.com/'>Marie Fiorucci</a>, a very talented art director - and friend - asked me to help her build the website.<br>I've done this using Wordpress for a simple backend and a fully customized front-end.",
 			"media" : [
 				{
 					"type" : "image",
@@ -438,7 +442,7 @@
 			"company_detail" : "http://mariefiorucci.com/",
 			"cover" : "cover.jpg",
 
-			"description" : "",
+			"description" : "Gilles Marchal is one of the most famous french chef patissier.<br><a href='http://mariefiorucci.com/'>Marie Fiorucci</a>, a very talented art director - and friend - asked me to help her build the website.<br>I've done this using Wordpress for a simple backend and a fully customized front-end.",
 			"media" : [
 				{
 					"type" : "image",
