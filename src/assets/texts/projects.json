@@ -65,7 +65,7 @@
 			"company_detail" : "http://www.acceptandproceed.com/",
 			"cover" : "cover.jpg",
 
-			"description" : "I collaborated with Accept and Proceed to pull live data from every game of the UEFA Euro Championships 2016 and transform it into a visually engaging graphic. The challenge was to take their design and create a unique poster for every game then share it in real-time across Instagram, Twitter and a microsite.",
+			"description" : "Le Beau Jeu (The Beautiful Game) by Accept & Proceed and Nico Pigelet celebrated the UEFA Euro 2016 with an infographic of every game. After each match in the tournament, we released via instagram and twitter a graphic which commemorates the game - showing cards given and goals scored.<br><br>By 10th July the body of graphics showed a complete visual journey to the final at the Stade de France.<br><br>The challenge was to create the poster in \"real time\" with a cron task and a few servers scripts to generate the images, and then add them instantly to the Website and all the social media accounts.",
 			"links" : [
 				{
 					"label" : "View website",
@@ -102,7 +102,7 @@
 			"company_detail" : "http://www.on-running.com/",
 			"cover" : "cover.jpg",
 
-			"description" : "On Running contacted me to help them build a microsite for their latest trail running shoe. As a triathlete and On user, I was very excited to help them. This website runs bits of SVG to add some details, and a simple JSON file for each language.",
+			"description" : "On Running contacted me to help them build a microsite for their latest trail running shoe. As a triathlete and On user, I was very excited to help them.<br><br>This website runs bits of SVG to add some details, and a simple JSON file for each language.",
 			"links" : [
 				{
 					"label" : "View website",
@@ -217,7 +217,7 @@
 			"company_detail" : "http://www.soixantecircuits.fr/",
 			"cover" : "cover.jpg",
 
-			"description" : "Soixante circuits contacted me to help them build the interface on an interactive booth they've build for Hermès.<br>The interface let you build a poem and then you have to recite it while being filmed, using a face-detection library we were able to display the words as they were being said.<br>Then you could share your poem to the world via a generated gif sent to you.<br><br>The outside screen allows the visitor to relive all the previous poems.",
+			"description" : "Soixante circuits contacted me to help them build the interface on an interactive booth they've build for Hermès.<br>The interface let you write a poem using selected words and then you recite it while being filmed, using a face-detection library we were able to display the words as they were being said. You could then share your poem to the world via a generated gif sent to you.<br><br>The outside screen allows the visitor to relive all the previous poems.",
 			"links" : [
 				{
 					"label" : "Video case study",
@@ -253,7 +253,12 @@
 			"company_detail" : "http://www.acceptandproceed.com/",
 			"cover" : "cover.jpg",
 
-			"description" : "",
+			"description" : "Accept and Proceed have been asked by Nike to put together a visual exploration project for a series of talks they were hosting in Portland.<br>A&P started working on an idea of generating poster for run activities crossed with weather data.<br><br>Then they contacted me to build those posters using Nike+ API data and a weather API. So I've build a support website for people to connect to their Nike+ account and generate (with SVG) the posters.<br>A&P also displayed the poster in their private exhibition place for a few weeks.<br><br>(the website is offline for now due to Nike policy of giving access to their API to third parties.)",
+			"links" : [
+				{
+					"label" : "Website offline"
+				}
+			],
 			"media" : [
 				{
 					"type" : "image",
@@ -417,6 +422,12 @@
 			"cover" : "cover.jpg",
 
 			"description" : "Restaurant Le Duc is one of the finest fish and seafood restaurant in Paris.<br><a href='http://mariefiorucci.com/'>Marie Fiorucci</a>, a very talented art director - and friend - asked me to help her build the website.<br>I've done this using Wordpress for a simple backend and a fully customized front-end.",
+			"links" : [
+				{
+					"label" : "View website",
+					"src" : "http://restaurantleduc.com/"
+				}
+			],
 			"media" : [
 				{
 					"type" : "image",
@@ -443,6 +454,12 @@
 			"cover" : "cover.jpg",
 
 			"description" : "Gilles Marchal is one of the most famous french chef patissier.<br><a href='http://mariefiorucci.com/'>Marie Fiorucci</a>, a very talented art director - and friend - asked me to help her build the website.<br>I've done this using Wordpress for a simple backend and a fully customized front-end.",
+			"links" : [
+				{
+					"label" : "View website",
+					"src" : "http://gillesmarchal.com/"
+				}
+			],
 			"media" : [
 				{
 					"type" : "image",
@@ -464,10 +481,15 @@
 			"title" : "Mindshare",
 			"type" : "Website",
 			"context" : "Fulltime",
-			"company" : "Pirata",
+			"company" : "Pirata London",
 			"cover" : "cover.jpg",
 
 			"description" : "Mindreader is a subset of Mindshare. The client wanted to create a website to present monthly question answered by people from all over the world.<br><br>We've build a simple interface that allows the user to compare the countries/regions of the world up to 4 simultaneously. I built it using SVG and RaphaelJS.",
+			"links" : [
+				{
+					"label" : "Website offline"
+				}
+			],
 			"media" : [
 				{
 					"type" : "image",
@@ -489,6 +511,11 @@
 			"cover" : "cover.jpg",
 
 			"description" : "On the website #kickittobrazil you can follow the journey of a football around the world. From Paris to Rio, during 60 days, you can see instagram and facebook posts during the travel and watch the daily videos. You can also influence the journey with votes and post your own photos to support the amazonian forrest.<br><br>The website is fully responsive and uses Backbone+Marionette JS and the underscore template engine.<br>I've also build the backend with scripts scanning different social networks (twitter, facebook and instagram) to get the hashtag #kickittobrazil.",
+			"links" : [
+				{
+					"label" : "Website offline"
+				}
+			],
 			"media" : [
 				{
 					"type" : "image",

@@ -14,7 +14,10 @@ body {
 
   .content-about {
     position: absolute;
-    top: -500px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     visibility: hidden;
     opacity: 0;
 
