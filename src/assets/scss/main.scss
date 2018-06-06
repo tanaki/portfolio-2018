@@ -11,17 +11,81 @@ body {
   max-width: 1140px;
   margin: 0 auto;
   overflow: hidden;
+}
 
-  .content-about {
+.content-about {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  visibility: hidden;
+  opacity: 0;
+
+  transition: all 0.2s linear;
+
+  .close {
+    font-size: 50px;
+    color: #FFF;
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+  }
+
+  .col-left,
+  .col-right {
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
     bottom: 0;
-    visibility: hidden;
-    opacity: 0;
+  }
+  .col-left {
+    left: 0;
+    right: 50%;
+    background: #111;
+  }
+  .col-right {
+    left: 50%;
+    right: 0;
+  }
 
-    transition: all 0.2s linear;
+  .text-content {
+    position: absolute;
+    left: 55px;
+    right: 70px;
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+  }
+
+  .block-about {
+    margin: 0 0 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    .title {
+      font-size: 24px;
+
+      &:after {
+        content: "";
+        display: block;
+        width: 13px;
+        height: 2px;
+        background: #FFF;
+        margin: 20px 0;
+      }
+    }
+    .text {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    a {
+      color: #FFF;
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
 }
 
@@ -35,19 +99,10 @@ body {
     right: 0;
     bottom: 0;
     /*background: #000;*/
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,1);
     color: #FFF;
     opacity: 1;
     visibility: visible;
-
-    .close {
-      font-size: 50px;
-      color: #FFF;
-      text-decoration: none;
-      position: absolute;
-      top: 10px;
-      right: 25px;
-    }
   }
 }
 
