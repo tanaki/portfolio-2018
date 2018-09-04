@@ -1,18 +1,11 @@
 <template>
   <div class="content-about">
-    <div class="col-left"></div>
-    <div class="col-right">
 
-      <!-- <div class="text-content" v-html="about"></div> -->
-      <div class="text-content">
-        
-        <div v-for="(block, index) in about" :key='index' class="block block-about">
-          <h4 class="title">{{block.title}}</h4>
-          <p class="text" v-html="block.text"></p>
-        </div>
-
+    <div class="text-content">
+      <div v-for="(block, index) in about" :key='index' class="block block-about">
+        <h4 class="title">{{block.title}}</h4>
+        <p class="text" v-html="block.text"></p>
       </div>
-
     </div>
     <router-link to="" class="close">&times;</router-link>
   </div>

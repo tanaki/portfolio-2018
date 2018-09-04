@@ -83,9 +83,36 @@
         transition: transform 0.25s ease-in-out 0.15s;
       }
     }
+  }
 
-    &:nth-child(4n) {
-      margin-right: 0;
+
+
+  @for $i from 1 through 20 {
+    .project:nth-child(#{$i}) {
+      transition: opacity .3s linear $i*0.05s;
+    }
+  }
+
+  &.fade-enter-active {
+    transition: opacity .3s linear;
+
+    .project {
+      opacity: 0;
+    }
+
+  }
+  &.fade-leave-active {
+    transition: opacity .3s linear;
+  }
+  
+  &.fade-enter, 
+  &.fade-leave-to
+    /* .fade-leave-active below version 2.1.8 */ {
+  }
+
+  &.fade-leave-to {
+    .project {
+      opacity: 0;
     }
   }
 }

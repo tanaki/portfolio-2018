@@ -25,4 +25,5 @@ export default new Router({
       component: NotFoundComponent 
     }
   ]
+
 })

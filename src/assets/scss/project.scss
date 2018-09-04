@@ -1,25 +1,11 @@
 
-.project-content {
-  /*transition: transform .5s cubic-bezier(.55,0,.1,1);*/
-}
-
-.slide-left-enter {
-  .project-content {
-    /*transform: translate3d(810px, 0, 0);*/
-  }
-}
-.slide-left-leave-active {
-  .project-content {
-    /*transform: translate3d(-810px, 0, 0);*/
-  }
-}
-
 .project {
   /*overflow: hidden;*/
+  height: 100%;
 
   .project-nav {
     width: 50%;
-    margin: -38px 0 40px 25%;
+    margin: -48px 0 40px 25%;
     text-align: center;
     
     font-family: $sansTitle;
@@ -28,9 +14,19 @@
     .btn-prev,
     .btn-next {
       color: $lightgrey;
+      display: inline-block;
       text-decoration: none;
       padding: 10px 15px;
       /*font-size: 24px;*/
+
+      transform: translateX(0);
+      transition: transform 0.2s ease-in-out;
+    }
+    .btn-prev:hover {
+      transform: translateX(-5px);
+    }
+    .btn-next:hover {
+      transform: translateX(5px);
     }
     .nav-index {
       display: inline-block;
@@ -48,19 +44,66 @@
 
   }
 
-  .column-media {
-    float: left;
-    width: 810px;
+  .block,
+  .media-item {
+    opacity: 1;
+    /*transform: translateY(0);*/
+  }
 
-    img,
-    video {
-      display: block;
-      width: 100%;
-      margin-bottom: 20px;
+  @for $i from 1 through 10 {
+    .block:nth-child(#{$i}) {
+      /*transition: all .3s ease-in-out $i*0.05s;*/
+      transition: opacity .3s linear $i*0.05s;
     }
-    video {
-      height: 535px;
+    .media-item:nth-child(#{$i}) {
+      /*transition: all .3s ease-in-out $i*0.05s+0.1s;*/
+      transition: opacity .3s linear $i*0.05s+0.1s;
     }
+  }
+
+
+  &.fade-enter-active {
+    transition: opacity .3s linear;
+
+    .block,
+    .media-item,
+    .project-nav {
+      opacity: 0;
+    }
+
+  }
+  &.fade-leave-active {
+    transition: opacity .3s linear;
+  }
+  
+  &.fade-enter, 
+  &.fade-leave-to
+    /* .fade-leave-active below version 2.1.8 */ {
+  }
+
+  &.fade-leave-to {
+    .block,
+    .media-item {
+      opacity: 0;
+    }
+  }
+}
+
+.column-media {
+  float: left;
+  width: 810px;
+
+  img,
+  video {
+    background: #FCFCFC;
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+
+    /*display: none;*/
+  }
+  video {
+    height: 535px;
   }
 }
 
@@ -103,10 +146,13 @@
 
   .block-client {
     a {
-      text-decoration: none;
-      &:hover {
-        text-decoration: underline;
-      }
+      @extend .underline-over;
+    }
+  }
+
+  .block-links {
+    a {
+      @extend .underline;
     }
   }
 
@@ -119,6 +165,10 @@
       height: 2px;
       background: #000;
       margin: 20px 0;
+    }
+
+    a {
+      @extend .underline;
     }
   }
 

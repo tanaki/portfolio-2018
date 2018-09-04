@@ -1,4 +1,9 @@
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   background: #FFFFFF;
   font-family: $sans;
@@ -8,9 +13,65 @@ body {
 }
 
 .wrapper {
+  min-height: 100%;
   max-width: 1140px;
   margin: 0 auto;
   overflow: hidden;
+}
+
+.underline {
+  color: #000;
+  position: relative;
+  text-decoration: none;
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: auto;
+    left: 0;
+
+    height: 1px;
+    width: 100%;
+    background: #000;
+
+    transition: width 0.2s ease-in-out;
+  }
+  &:hover {
+    &:after {
+      left: auto;
+      right: 0;
+
+      width: 0;
+    }
+  }
+}
+
+.underline-over {
+  @extend .underline;
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: auto;
+
+
+    height: 1px;
+    width: 0;
+    background: #000;
+
+    transition: width 0.2s ease-in-out;
+  }
+  &:hover {
+    &:after {
+      left: 0;
+      right: auto;
+
+      width: 100%;
+    }
+  }
 }
 
 .content-about {
@@ -26,35 +87,32 @@ body {
 
   .close {
     font-size: 50px;
+    line-height: 18px;
+    padding: 20px;
+    height: 23px;
+
     color: #FFF;
     text-decoration: none;
     position: absolute;
-    top: 10px;
-    right: 25px;
-  }
-
-  .col-left,
-  .col-right {
-    position: absolute;
     top: 0;
-    bottom: 0;
-  }
-  .col-left {
-    left: 0;
-    right: 50%;
-    background: #111;
-  }
-  .col-right {
-    left: 50%;
     right: 0;
+
+
+    transform: rotate(0);
+    transform-origin: 50% 50%;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+      transform: rotate(90deg);
+    }
   }
 
   .text-content {
     position: absolute;
-    left: 55px;
-    right: 70px;
     top: 50%;
-    transform: translate3d(0, -50%, 0);
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 50%;
   }
 
   .block-about {
@@ -81,9 +139,11 @@ body {
       line-height: 20px;
     }
     a {
+      @extend .underline;
       color: #FFF;
-      &:hover {
-        text-decoration: none;
+
+      &:after {
+        background: #FFF;
       }
     }
   }
@@ -120,6 +180,12 @@ header {
   h1 {
     float: left;
     padding: 0;
+
+    a {
+      display: block;
+      color: #000;
+      text-decoration: none;
+    }
   }
   .menu {
     float: right;
@@ -129,7 +195,7 @@ header {
       margin-left: 15px;
     }
     a {
-      
+      @extend .underline-over;
       font-weight: 400;
       font-size: 18px;
       line-height: 22px;
@@ -139,33 +205,6 @@ header {
       text-transform: uppercase;
       background: none;
       border: none;
-      text-decoration: none;
-      color: #000;
-
-      position: relative;
-
-      &:after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        left: auto;
-
-
-        height: 1px;
-        width: 0;
-        background: #000;
-
-        transition: width 0.2s ease-in-out;
-      }
-      &:hover {
-        &:after {
-          left: 0;
-          right: auto;
-
-          width: 100%;
-        }
-      }
     }
   }
 }

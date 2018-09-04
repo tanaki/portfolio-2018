@@ -3,7 +3,7 @@
 
     <header>
         
-      <h1>Nicolas Pigelet</h1>
+      <h1><router-link to="/">Nicolas Pigelet</router-link></h1>
       <div class="menu">
         <ul>
           <li>
@@ -17,8 +17,9 @@
 
     </header>
 
-    <!-- <router-view :key="$route.fullPath" /> -->
-    <transition :name="transitionName">
+    <!-- mode="out-in" -->
+    <!-- name="fadeAndTranslate" -->
+    <transition appear :name="transitionName">
       <router-view :key="$route.fullPath" />
     </transition>
     
@@ -36,25 +37,15 @@ import Works from './components/Works.vue'
 import About from './components/About.vue'
 
 export default {
+  data () {
+    return {
+      transitionName: "fade"
+    }
+  },
   name: 'app',
   components: {
     Works,
     About
-  },
-  data () {
-    return {
-      transitionName : ''
-    }
-  },
-  watch: {
-    '$route' (to, from) {
-      const toDepth = to.path.split('/').length
-      const fromDepth = from.path.split('/').length
-      this.transitionName = toDepth < fromDepth ? 'slide-right' : 'slide-left'
-
-      // eslint-disable-next-line
-      console.log('watch', this.transitionName)
-    }
   }
 }
 </script>
@@ -67,4 +58,6 @@ export default {
   @import './assets/scss/main.scss';
   @import './assets/scss/projects.scss';
   @import './assets/scss/project.scss';
+  @import './assets/scss/responsive.scss';
+
 </style>

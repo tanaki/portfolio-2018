@@ -6,11 +6,7 @@
 		},
 		{
 			"title" : "Tech stuffs",
-			"text" : "As a freelancer, I'm able to get my head around different technologies and production process quite quickly. Using automation tools like npm scrupts or gulp, and different JS libraries (VueJS, React or nothing...)."
-		},
-		{
-			"title" : "More code from me",
-			"text" : "<a href='http://github.com/tanaki' target='_blank'>github.com/tanaki</a><br><a href='http://bitbucket.com/nicopigelet' target='_blank'>bitbucket.com/nicopigelet<a/>"
+			"text" : "As a freelancer, I'm able to get my head around different technologies and production process quite quickly. Using automation tools like npm scrupts or gulp, and different JS libraries (VueJS, React or nothing...).<br><br><a href='http://github.com/tanaki' target='_blank'>github.com/tanaki</a><br><a href='http://bitbucket.com/nicopigelet' target='_blank'>bitbucket.com/nicopigelet<a/>"
 		}
 	]
 }
