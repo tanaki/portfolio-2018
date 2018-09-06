@@ -4,8 +4,12 @@
   height: 100%;
 
   .project-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     width: 50%;
-    margin: -48px 0 40px 25%;
+    margin: -30px auto 40px;
     text-align: center;
     
     font-family: $sansTitle;
@@ -16,8 +20,12 @@
       color: $lightgrey;
       display: inline-block;
       text-decoration: none;
-      padding: 10px 15px;
-      /*font-size: 24px;*/
+      font-size: 24px;
+      line-height: 12px;
+
+      width: 40px;
+      height: 28px;
+      padding-top: 12px;
 
       transform: translateX(0);
       transition: transform 0.2s ease-in-out;
@@ -32,6 +40,7 @@
       display: inline-block;
       text-align: center;
       width: 40px;
+      font-size: 12px;
     }
   }
 
@@ -91,7 +100,7 @@
 
 .column-media {
   float: left;
-  width: 810px;
+  width: 820px;
 
   img,
   video {
@@ -147,6 +156,17 @@
   .block-client {
     a {
       @extend .underline-over;
+    }
+
+    span {
+      display: block;
+      color: $lightgrey;
+    }
+    .client {
+      line-height: 12px;
+    }
+    .context {
+      margin-top: 10px;
     }
   }
 

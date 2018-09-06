@@ -8,8 +8,9 @@
     </div>
 
     <div class="block block-client">
-      build with <a :href="project.company_detail" target="_blank">{{project.company}}</a><br>
-      as a {{project.context}}
+      <span class="client">Company</span>
+      <a class="client-link" :href="project.company_detail" target="_blank">{{project.company}}</a>
+      <span class="context">{{project.context}}</span>
     </div>
 
     <div v-if="project.links" class="block block-links">

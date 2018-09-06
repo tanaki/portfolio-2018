@@ -2,7 +2,7 @@
   <div class="projects">
     <ul>
       <li v-for="(project, index) in projects" :key='index' class="project">
-        <router-link v-bind:to="{ path: '/works/' + project.slug }" class="project-link">
+        <router-link v-bind:to="{ path: '/work/' + project.slug }" class="project-link">
           <span class="titles">
             <span class="title">{{project.title}}</span>
             <span class="context">{{project.context}}</span>

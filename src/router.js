@@ -15,7 +15,7 @@ export default new Router({
       component: Works
     },
     {
-      path: '/works/:slug',
+      path: '/work/:slug',
       name: 'work',
       component: Work
     },
@@ -24,6 +24,9 @@ export default new Router({
       name : '404',
       component: NotFoundComponent 
     }
-  ]
+  ],
+  scrollBehavior (to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  }
 
 })

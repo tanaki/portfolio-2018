@@ -1,18 +1,14 @@
 <template>
-  <div id="app" class="wrapper" v-bind:class="{ about : ($route.hash == '#about') }">
+  <div id="app" class="wrapper" v-bind:class="{ about: isAboutVisible, touch : isTouchEnable }">
 
     <header>
         
       <h1><router-link to="/">Nicolas Pigelet</router-link></h1>
-      <div class="menu">
-        <ul>
-          <li>
-            <router-link to="/">Works</router-link>
-          </li>
-          <li>
-            <router-link to="#about">About</router-link>
-          </li>
-        </ul>
+      <div class="menu-link link-work">
+        <router-link to="/">Work</router-link>
+      </div>
+      <div class="menu-link link-about">
+        <a v-on:click="showAbout">About</a>
       </div>
 
     </header>
@@ -27,7 +23,7 @@
       &copy; <a href="mailto:nico@nicolaspigelet.com?subject=Take+my+money" target="_blank">Nicolas Pigelet</a> - 2018
     </footer>
 
-    <About />
+    <About @hideAbout="onHideAbout" />
 
   </div>
 </template>
@@ -39,13 +35,36 @@ import About from './components/About.vue'
 export default {
   data () {
     return {
-      transitionName: "fade"
+      transitionName: "fade",
+      isAboutVisible : false,
+      isTouchEnable : false
     }
   },
   name: 'app',
   components: {
     Works,
     About
+  },
+  methods : {
+    showAbout () {
+      this.isAboutVisible = true
+    },
+    onHideAbout () {
+      console.log('on hide about')
+      this.isAboutVisible = false
+    },
+    escapeKeyListener: function(evt) {
+      if (evt.keyCode === 27 && this.isAboutVisible) {
+        this.isAboutVisible = false
+      }
+    }
+  },
+  created: function() {
+    document.addEventListener('keyup', this.escapeKeyListener);
+    this.isTouchEnable = 'ontouchstart' in document.documentElement;
+  },
+  destroyed: function() {
+    document.removeEventListener('keyup', this.escapeKeyListener);
   }
 }
 </script>
@@ -59,5 +78,6 @@ export default {
   @import './assets/scss/projects.scss';
   @import './assets/scss/project.scss';
   @import './assets/scss/responsive.scss';
+  @import './assets/scss/touch.scss';
 
 </style>

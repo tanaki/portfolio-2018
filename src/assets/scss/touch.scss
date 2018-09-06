@@ -1,0 +1,63 @@
+
+.touch {
+	.underline,
+	.underline-over {
+	  &:after {
+	  	display: none;
+	    content: none;
+	    transition: none;
+	  }
+	}
+
+	.content-about {
+		.close:hover {
+			transform: none;
+		}
+	}
+
+	.project {
+		.project-nav {
+			.btn-prev,
+			.btn-next {
+				&:hover {
+					transform: none;
+				}
+			}
+		}
+	}
+
+}
+
+@media screen and (max-width: 890px) {
+	.touch {
+		.projects {
+			.project,
+			.project:hover {
+
+				.titles {
+					bottom: 0;
+					height: 30%;
+					opacity: 1;
+					transition: none;
+				}
+				.title {
+					font-size: 18px;
+					margin: 20px 0 0;
+					transform: none;
+					transition: none;
+				}
+				.context {
+					margin-top: 10px;
+					font-size: 14px;
+					transform: none;
+					transition: none;
+				}
+				.dash {
+					transform: none;
+					transition: none;
+					display: none;
+				}
+			}
+		}
+	}
+}

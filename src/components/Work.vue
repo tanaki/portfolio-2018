@@ -2,9 +2,9 @@
   <div class="project-view project">
     
     <div class="project-nav">
-      <router-link :to="{ path: '/works/' + prev }" class="btn-prev">&lsaquo;</router-link>
+      <router-link :to="{ path: '/work/' + prev }" class="btn-prev">&lsaquo;</router-link>
       <span class="nav-index">{{index}}/{{total}}</span>
-      <router-link :to="{ path: '/works/' + next }" class="btn-next">&rsaquo;</router-link>
+      <router-link :to="{ path: '/work/' + next }" class="btn-next">&rsaquo;</router-link>
     </div>
     
     <div class="project-content" v-if="project">
@@ -13,6 +13,12 @@
       <WorkDetail :project="project" :alignClass="alignClass"></WorkDetail>
       <WorkMedia v-if="isLeftColTemplate" :project="project"></WorkMedia>
 
+    </div>
+    
+    <div class="project-nav project-nav-secondary">
+      <router-link :to="{ path: '/work/' + prev }" class="btn-prev">&lsaquo;</router-link>
+      <span class="nav-index">{{index}}/{{total}}</span>
+      <router-link :to="{ path: '/work/' + next }" class="btn-next">&rsaquo;</router-link>
     </div>
     
   </div>
