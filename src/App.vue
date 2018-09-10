@@ -50,7 +50,6 @@ export default {
       this.isAboutVisible = true
     },
     onHideAbout () {
-      console.log('on hide about')
       this.isAboutVisible = false
     },
     escapeKeyListener: function(evt) {
