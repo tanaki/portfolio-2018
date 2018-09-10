@@ -71,6 +71,10 @@
 	}
 }
 @media screen and (max-width: 890px) {
+	header {
+		border-bottom: 1px solid #B9B9B9;
+		margin-bottom: 40px;
+	}
 
 	.project-content {
 		display: flex;
@@ -95,9 +99,15 @@
 			margin-left: 0;
 		}
 	}
-	.project .project-nav {
-		margin-top: 0;
-		margin-bottom: 20px;
+	.project {
+		.project-nav {
+			display: none;
+			margin-top: 0;
+			margin-bottom: 20px;
+		}
+		.project-nav-secondary {
+			display: block;
+		}
 	}
 }
 @media screen and (max-width: 890px) and (min-width: 600px) {
