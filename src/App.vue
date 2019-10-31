@@ -20,7 +20,7 @@
     </transition>
     
     <footer>
-      &copy; <a href="mailto:nico@nicolaspigelet.com?subject=Take+my+money" target="_blank">Nicolas Pigelet</a> - 2018
+      &copy; <a href="mailto:nico@nicolaspigelet.com?subject=Take+my+money" target="_blank">Nicolas Pigelet</a> - {{ year }}
     </footer>
 
     <About @hideAbout="onHideAbout" />
@@ -35,6 +35,7 @@ import About from './components/About.vue'
 export default {
   data () {
     return {
+      year: new Date().getFullYear(),
       transitionName: "fade",
       isAboutVisible : false,
       isTouchEnable : false
