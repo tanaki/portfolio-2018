@@ -2,6 +2,70 @@
 	"projects" : [
 
 		{
+			"slug" : "coorpacademy",
+			"title" : "Coorpacademy",
+			"type" : "Website",
+			"context" : "Freelance",
+			"company" : "Etamin Studio",
+			"company_detail" : "http://www.etaminstudio.com/",
+			"cover" : "cover.jpg",
+
+			"description" : "I've helped Etamin Studio build the onboarding and the dashboard for the Coorpteam platform. It's a MOOC for small and medium companies.<br/>I've helped build the whole onboading process and the dashboard with the Etamin team.<br/>We've used React, Blitz and Typescript to build this web application.",
+			"links" : [
+				{
+					"label" : "Visit website",
+					"src" : "https://coorpteam.coorpacademy.com/"
+				}
+			],
+			"media" : [
+				{
+					"type" : "image",
+					"src" : "01_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "02_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "03_image.jpg"
+				}
+			]
+		},
+
+		{
+			"slug" : "learning-planet-institute",
+			"title" : "Learning Planet Institute",
+			"type" : "Website and web applications",
+			"context" : "Freelance & Contract",
+			"company" : "Learning Planet Institute",
+			"company_detail" : "https://learningplanetinstitute.org/",
+			"cover" : "cover.jpg",
+
+			"description" : "I've spent several month helping reshape and develop the front end of different applications for the Learning Planet Institute.<br/>I lead the transition from a prototype-oriented code to a modular application by splitting and refactor the code using Storybook.<br/>The codebase for the front end is using VueJS and now Typescript.",
+			"links" : [
+				{
+					"label" : "Visit website",
+					"src" : "https://learningplanetinstitute.org/"
+				}
+			],
+			"media" : [
+				{
+					"type" : "image",
+					"src" : "01_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "02_image.jpg"
+				},
+				{
+					"type" : "image",
+					"src" : "03_image.jpg"
+				}
+			]
+		},
+
+		{
 			"slug" : "paris",
 			"title" : "Paris.fr",
 			"type" : "Website",
