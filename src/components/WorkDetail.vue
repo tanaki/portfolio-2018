@@ -24,6 +24,13 @@
       <p v-html="project.description"></p>
     </div>
 
+    <div v-if="project.technologies" class="block block-techno">
+      <h4>Tech</h4>
+      <div v-for="(techno, index) in project.technologies" :key="index" class="techno-detail">
+        <p class="techno">{{techno}}</p>
+      </div>
+    </div>
+
     <div v-if="project.awards" class="block block-awards">
       <h3>Awards</h3>
       <div v-for="(award, index) in project.awards" :key="index" class="award-detail">

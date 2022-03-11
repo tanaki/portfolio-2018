@@ -10,7 +10,7 @@
 			"company_detail" : "http://www.etaminstudio.com/",
 			"cover" : "cover.jpg",
 
-			"description" : "I've helped Etamin Studio build the onboarding and the dashboard for the Coorpteam platform. It's a MOOC for small and medium companies.<br/>I've helped build the whole onboading process and the dashboard with the Etamin team.<br/>We've used React, Blitz and Typescript to build this web application.",
+			"description" : "I've helped Etamin Studio build the onboarding and the dashboard for the Coorpteam platform. It's a MOOC for small and medium companies.<br/>I've helped build the whole onboading process and the dashboard with the Etamin team.",
 			"links" : [
 				{
 					"label" : "Visit website",
@@ -30,7 +30,8 @@
 					"type" : "image",
 					"src" : "03_image.jpg"
 				}
-			]
+			],
+			"technologies" : ["BlitzJS", "NextJS", "React", "Typescript", "Tailwind"]
 		},
 
 		{
@@ -42,7 +43,7 @@
 			"company_detail" : "https://learningplanetinstitute.org/",
 			"cover" : "cover.jpg",
 
-			"description" : "I've spent several month helping reshape and develop the front end of different applications for the Learning Planet Institute.<br/>I lead the transition from a prototype-oriented code to a modular application by splitting and refactor the code using Storybook.<br/>The codebase for the front end is using VueJS and now Typescript.",
+			"description" : "I've spent several month helping reshape and develop the front end of different applications for the Learning Planet Institute.<br/>I lead the transition from a prototype-oriented code to a modular application by splitting and refactor the code using Storybook.",
 			"links" : [
 				{
 					"label" : "Visit website",
@@ -62,7 +63,8 @@
 					"type" : "image",
 					"src" : "03_image.jpg"
 				}
-			]
+			],
+			"technologies" : ["VueJS", "Typescript", "Storybook"]
 		},
 
 		{
@@ -94,7 +96,8 @@
 					"type" : "image",
 					"src" : "03_image.jpg"
 				}
-			]
+			],
+			"technologies" : ["PostCSS", "slim"]
 		},
 
 		{
@@ -122,7 +125,8 @@
 					"type" : "image",
 					"src" : "02_image.jpg"
 				}
-			]
+			],
+			"technologies" : ["PostCSS", "slim"]
 		},
 
 		{
@@ -134,7 +138,7 @@
 			"company_detail" : "http://www.valentinadefilippo.co.uk/",
 			"cover" : "cover.jpg",
 
-			"description" : "This project was initiated by the very talented graphic designer and illustrator <a href='http://valentinadefilippo.co.uk/' target='_blank'>Valentina D'Efilippo</a>.<br>Based on an infographic from her book, we've build an interactive version of the graph.<br><br>First in November 2014, we've launched the website version, and since October 2017 it's part of the permanent exhibition at the Weltmuseum in Vienna, Austria.<br><br>Technically speaking, the project uses D3.js library for the SVG custom graph and a set of data from a static CSV file.",
+			"description" : "This project was initiated by the very talented graphic designer and illustrator <a href='http://valentinadefilippo.co.uk/' target='_blank'>Valentina D'Efilippo</a>.<br>Based on an infographic from her book, we've build an interactive version of the graph.<br><br>First in November 2014, we've launched the website version, and since October 2017 it's part of the permanent exhibition at the Weltmuseum in Vienna, Austria.",
 			"links" : [
 				{
 					"label" : "Visit website",
@@ -177,7 +181,8 @@
 					"label" : "European Design Awards",
 					"category" : "Silver - Information site"
 				}
-			]
+			],
+			"technologies" : ["D3.js", "SVG", "CSV"]
 		},
 
 		{
@@ -214,7 +219,8 @@
 					"type" : "image",
 					"src" : "04_image.jpg"
 				}
-			]
+			],
+			"technologies": ["SVG", "Cron"]
 		},
 
 		{

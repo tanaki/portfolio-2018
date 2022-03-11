@@ -177,6 +177,7 @@
   }
 
   .block-description,
+  .block-techno,
   .block-awards {
     &:before {
       content: "";
@@ -189,6 +190,12 @@
 
     a {
       @extend .underline;
+    }
+  }
+
+  .block-techno {
+    h4 {
+      color: $lightgrey;
     }
   }
 
